@@ -101,7 +101,7 @@ span {
   margin-right: 8px;
 }
 
-.btn {
+.button {
   background-color: #3c8067;
   font-weight: 700;
 
@@ -111,12 +111,15 @@ span {
 }
 
 @media (max-width: 600px) {
+  .box1 {
+    padding: 0;
+  }
   .box2 {
     flex-direction: column;
     align-items: center;
 
-    width: 375px;
-    height: 600px;
+    width: 350px;
+    height: 650px;
   }
   .img-desktop {
     display: none;
@@ -128,10 +131,16 @@ span {
     object-fit: fill;
   }
   .photo-section {
-    height: 40%;
+    height: 100%;
+    width: 100%;
   }
   .text-section {
-    padding: 0;
+    height: 100%;
+    width: 100%;
+    padding: 25px 40px 25px 25px;
+  }
+  .button {
+    margin-top: 20px;
   }
 }
 
@@ -139,7 +148,7 @@ span {
 
 .attribution {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  font-size: 14px;
+  bottom: 5px;
+  right: 5px;
+  font-size: 12px;
 }
