@@ -55,7 +55,7 @@ body {
 }
 
 .style1 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-family: "Montserrat";
   font-weight: 500;
@@ -84,7 +84,7 @@ body {
 }
 
 #price1 {
-  font-size: 32px;
+  font-size: 2rem;
   color: #3c8067;
   margin-right: 10px;
 }
@@ -150,5 +150,5 @@ span {
   position: fixed;
   bottom: 5px;
   right: 5px;
-  font-size: 12px;
+  font-size: 0.875rem;
 }
